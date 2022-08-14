@@ -1,0 +1,29 @@
+.navigator {
+    position:fixed;
+     left:0;
+     bottom:0;
+     top:50px;
+     width:72px;
+     background-color: white;
+    }
+.navigator-link {
+    height: 76px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.navigator-link:hover {
+    background-color: grey;
+}
+.navigator-link img {
+    height: 24px;
+    padding-bottom: 8px;
+}
+.navigator-link div {
+    font-size: 8px;
+    font-family:'Courier New', Courier, monospace;
+ 
+}
